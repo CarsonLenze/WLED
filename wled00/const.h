@@ -583,7 +583,7 @@ static_assert(WLED_MAX_BUSSES <= 32, "WLED_MAX_BUSSES exceeds hard limit");
 #endif
 
 #ifdef WLED_USE_ETHERNET
-  #define E131_MAX_UNIVERSE_COUNT 20
+  #define E131_MAX_UNIVERSE_COUNT 25
 #else
   #ifdef ESP8266
     #define E131_MAX_UNIVERSE_COUNT 9
